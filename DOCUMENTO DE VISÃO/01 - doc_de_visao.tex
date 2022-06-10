@@ -1,0 +1,119 @@
+%
+% Portuguese-BR vertion
+% 
+\documentclass{article}
+
+\usepackage{estilo}
+% Use longtable if you want big tables to split over multiple pages.
+% \usepackage{longtable}
+\usepackage[utf8]{inputenc} 
+
+\sloppy
+
+\graphicspath{{./pictures/}} % Pictures dir
+\makeindex
+\begin{document}
+
+\DocumentTitle{Documento de visão}
+\Project{VENDAS}
+\Organization{Your Sell}
+\Version{Versão 1.0}
+
+\capa\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Revision History
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{\center Histórico de Revisões}
+  \vspace*{1cm}
+  \begin{table}[ht]
+    \centering
+    \begin{tabular}[pos]{|m{2cm} | m{7.2cm} | m{3.8cm}|} 
+      \hline
+      \cellcolor[gray]{0.9}
+      \textbf{Date} & \cellcolor[gray]{0.9}\textbf{Descrição} & \cellcolor[gray]{0.9}\textbf{Autor(s)}\\ \hline
+      \hline
+      \small 10/06/2022 & \small início do projeto & \small Guilherme Ferreira e Diogo Farias \\ \hline      
+    \end{tabular}
+  \end{table}
+
+\newpage
+
+% TOC instantiation
+\tableofcontents
+\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Document main content
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Introdução}
+
+
+\subsection{Propósito}
+O propósito deste documento é expor as necessidades e funcionalidades gerais
+do sistema, definindo os requisitos necessários para a implementação e uso do software.
+Todas essas necessidades são descritas nos tópicos de Requisitos (4.4 e 4.5).
+
+
+\subsection{Escopo}
+Este documento está associado à apenas um produto, no caso, um software de vendas esportivas, buscamos, por meio deste documento, esclarecer as funcionalidades, licenças, os requisitos para utilização e para o desempenho do nosso software. O cliente não deverá alterar as linhas de comando sem a supervisão de um profissional, não será necessário alterar os códigos para inserir ou retirar produtos do software.
+\subsection{Visão Geral} 
+Após essa breve introdução teremos o tópico referente ao posicionamento do nosso produto no mercado, especificando suas oportunidades de negócios, os problemas que ele busca resolver. Após o posicionamento, apresentaremos a equipe do projeto especificando seus stakeholders e usuários. E por fim teremos a visão geral do produto onde daremos as especificações mais detalhadas a respeito do software em questão.
+ 
+\section{Posicionamento}
+\subsection{Oportunidade de Negócios}
+Com um software de vendas, existem várias oportunidades de negócios, podemos vender esse software para mercados, lojas, implementá-los em sites ou até mesmo usá-los apenas como uma forma de controle dos produtos que entram e saem do estabelecimento, porém decidimos implementá-lo em um site de vendas de artigos esportivos (daremos mais detalhes quando formos falar das especificações do produto.
+\subsection{Descrição do Problema}
+Não ter um devido controle sobre suas vendas, ou até, ter que efetua-las conversando diretamente com o cliente certamente é um problema, principalmente quando se vende produtos em massa, imagine ter que anotar fruta por fruta que é vendida, é aí que nosso produto entra no intuito de automatizar esse processo que afeta os grandes médios e microempreendedores no ramo de vendas. Procuramos tornar nosso software acessível para todos que queiram executar suas vendas de forma rápida, automatizada e organizada.
+\subsection{Sentença de Posição do Produto}
+Para o vendedor que está interessado em ter um controle mais claro e objetivo das suas vendas. O VENDAS é um software que busca organizar suas vendas e automatiza-las deixando seu trabalho menos cansativo e mais rápido.
+\section{Equipe de Projeto}
+
+\subsection{Stakeholders}
+
+Stakeholders positivos para o nosso produto: Grande mercado consumidor em nosso país (artigos esportivos como camisas) ou seja potenciais compradores, possibilidade de maiores investimento se visto que realmente o produto é bem feito e estiver fazendo sucesso, facilidade de encontrar fornecedores para comprar e posteriormente revender essas camisas pelo sistema desenvolvido.
+
+Satakeholders Negativos: Empresas que tem esse foco em vender artigos esportivos, dificuldade para se inserir no mercado como uma grande marca visto que existem empresas com uma reputação que já vem de anos no mercado
+
+\subsection{Usuários}    
+
+  \FloatBarrier
+  \begin{table}[H]
+    \begin{center}
+      \begin{tabular}[pos]{|m{7cm} | m{9cm}|} 
+        \hline
+        \cellcolor[gray]{0.9}\textbf{Nome/Papel/Contato} &\cellcolor[gray]{0.9}\textbf{Responsabilidades}\\ \hline
+        Guilherme Ferreira e Diogo \newline 
+        \textbf{Testar e fazer avaliações sobre o nosso produto, fazendo as correções necessárias.} \newline 
+        guilherme.ferreira@escolar.ifrn.edu.br & \\ \hline       
+      \end{tabular}
+    \end{center}
+  \end{table}
+
+
+\section{Visão Geral do Produto}
+
+\subsection{Perspectiva do Produto}
+O nosso produto tem inicialmente a meta de gerar alguma renda mesmo que baixa visto que a grande parte da população do nosso país vem cada vez mais consumindo oque queremos comercializar (Compras de artigos esportivos em 2021 crescem 35 porcento, segundo a Visa), podendo no futuro virar um produto de referência no mercado.
+\subsection{Funcionalidades do Produto}
+Possui funcionalidades responsivas e interativas deixando o usuário mais confortável, entretido para que fique na página o maior tempo possível aumentando assim a chance de comprar algo, principalmente funcionalidades interativas para que o produto fique em uma proporção correta em diferentes padrões de tela, podendo também no futuro pensar em ampliar nosso produto não ficando apenas em camisas mas sim em outros produtos que se encaixem nesse meio esportivo.
+
+\subsection{Licenças}
+Para as licenças, decidimos escolher a GNU General Public License
+
+
+\subsection{Requisitos de Sistema}
+Os requisitos de sistema para acessar nosso produto são bem básicos basta ter um dispositivo seja computador celular tablet, etc, que consiga acessar um navegador e fazer buscas nele, para isso necessitando também de acesso à internet caso queira acessar pelo navegador.
+
+\subsection{Requisitos de Desempenho}
+Buscamos ter um tempo de resposta, processamento, temporização baixos já que isso ajuda também a manter o usuário entretido no site continuando sua busca ou procura e ter uma boa confiabilidade com o produto mantendo a estabilidade o maior tempo possível com poucas falhas de preferência.
+
+\section{Glossário}
+ Stakeholders: grupo ou grupos interessados no projeto
+
+% Optional bibliography section
+% To use bibliograpy, first provide the ipprocess.bib file on the root folder.
+% \bibliographystyle{ieeetr}
+% \bibliography{ipprocess}
+
+\end{document}
