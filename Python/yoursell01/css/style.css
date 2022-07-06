@@ -1,0 +1,79 @@
+html, body{
+    font-family: Helvetica, sans-serif, Arial;
+    font-size: 1rem;
+    background-color: #cdcdcd;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, nav{ 
+    background-color: #54539B;
+    height: 100px;
+    border: 1px solid black;
+}
+
+ul,li{
+    display: inline-block;
+    float: right;
+    padding-inline: 10px;
+    margin-block: -15px;
+}
+
+.premiernome, .serieanome, .bundesliganome{
+    text-align: center;
+    background-color: #9FA7EB;
+    color:#000000;
+    border: 1px solid black;
+
+}
+
+.camisaspro{
+    display: inline-flex;
+    padding-right: 10px;
+    padding-left: 5px;
+    padding-inline: 10px;
+    
+}
+
+.camisaspro button{
+    transition: ease;
+    color: #54539B;
+    width: 150px; height: 50px;
+}
+
+h3{
+    display: inline-block;
+    padding-inline: 50px;
+    padding-inline-start: 350px;
+}
+
+.frete{
+    text-align: center;
+    background-color:#54539B;
+    height: 45px;
+    padding-block-start: 15px;
+    border: 1px solid black;
+    padding-bottom: 20px;
+}
+
+.logoo{
+    padding-left: 900px;
+    margin-block: -35px;
+}
+
+.camisas{
+    background-color: #9FA7EB;
+    border: 1px solid black;
+}
+
+.ligamenu{
+    background-color: #9FA7EB;
+    border: 1px solid black;
+}
