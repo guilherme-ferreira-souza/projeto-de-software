@@ -114,13 +114,12 @@ USE_TZ = True
 
 
 # Static files (CSS, JavaScript, Images)
-STATICFILES_DIRS = (
-   '/Python/yoursell01/base/templates/css',
-)
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
-
 STATIC_URL = 'static/'
 
+STATICFILES_DIRS = (
+   '/Python/yoursell01/base/static/css',
+)
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
