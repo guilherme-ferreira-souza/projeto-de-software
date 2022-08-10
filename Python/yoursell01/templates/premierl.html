@@ -1,9 +1,10 @@
+{%load static%}
 <!DOCTYPE html>
 <html>
     <head>
 
         <title> PGFOOT </title> 
-        <link rel="stylesheet" href="css/style.css" >
+        <link rel="stylesheet" href="{% static 'css/style.css' %}" >
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
        </head>
@@ -12,12 +13,12 @@
            <header>
                <nav>
                    <div class="cont">
-                       <a href="menu.html" class"menu">
+                       <a href=" {% url 'menu' %} " class"menu">
                            <img height="45" width="40" src="imagens/barrinhas.png" alt="MENU">
                        </a>
                    </div>
                 <div class="logoo">
-                    <a href="index.html">
+                    <a href=" {% url 'index' %} ">
                         <img width="80" height="80" src="imagens/logotempo.png">
                     </a>
                 </div>

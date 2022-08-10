@@ -14,20 +14,20 @@
     <header>
         <nav>
             <div class="cont">
-                <a href="menu.html" class"menu">
-                <img height="45" width="40" src="imagens/barrinhas.png" alt="MENU">
+                <a href=" {% url 'menu' %} "class"menu">
+                <img height="45" width="40" src="{% static 'imagens/barrinhas.png' %}" alt="MENU">
                 </a>
             </div>
             <div class="logoo">
-                <a href="index.html">
-                    <img width="80" height="80" src="imagens/logotempo.png">
+                <a href=" {% url 'index' %} ">
+                    <img width="80" height="80"src="{% static 'imagens/logotempo.png' %}">
                 </a>
             </div>
 
             <div class="contatos">
                 <ul>
-                  <li><a href="https://www.instagram.com"> <img height="45" width="35" src="imagens/INSTA.png"></a></li>
-                  <li><a href="https://web.whatsapp.com"> <img height="45" width="40" src="imagens/WHATS.png"> </a></li>
+                  <li><a href="https://www.instagram.com"> <img height="45" width="35" src="{% static 'imagens/INSTA.png' %}"></a></li>
+                  <li><a href="https://web.whatsapp.com"> <img height="45" width="40" src="{% static 'imagens/WHATS.png' %}"> </a></li>
                 </ul>
             </div>
         </nav>
@@ -36,9 +36,9 @@
 <main>
 
 <img width="33%" src="imagens/FEMINCAIMI.jpg">
-<img width="33%" src="imagens/VANDJIK.jpg">
-<img width="33%" src="imagens/CAMISAMASC.jpg">
-<img width="33%" src="imagens/NIKE.png">
+<img width="33%" src="{% static 'imagens/VANDJIK.jpg' %}">
+<img width="33%" src="{% static 'imagens/CAMISAMASC.jpg' %}">
+<img width="33%" src="{% static 'imagens/NIKE.png' %}">
 <img width="33%" src="imagens/pumacrt.png">
 <img height="350px" width="33%" src="imagens/addidas.png">
 
