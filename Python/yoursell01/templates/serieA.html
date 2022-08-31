@@ -14,19 +14,19 @@
                <nav>
                    <div class="cont">
                        <a href=" {% url 'menu' %} " class"menu">
-                           <img height="45" width="40" src="imagens/barrinhas.png" alt="MENU">
+                           <img height="45" width="40" src="{% static 'imagens/barrinhas.png' %}" alt="MENU">
                        </a>
                    </div>
                 <div class="logoo">
                     <a href=" {% url 'index' %} ">
-                        <img width="80" height="80" src="imagens/logotempo.png">
+                        <img width="80" height="80" src="{% static 'imagens/logotempo.png' %}">
                     </a>
                 </div>
        
                    <div class="contatos">
                        <ul>
-                         <li><a href="https://www.instagram.com"> <img height="45" width="35" src="imagens/INSTA.png"></a></li>
-                         <li><a href="https://web.whatsapp.com"> <img height="45" width="40" src="imagens/WHATS.png"> </a></li>
+                         <li><a href="https://www.instagram.com"> <img height="45" width="35" src="{% static 'imagens/INSTA.png' %}"></a></li>
+                         <li><a href="https://web.whatsapp.com"> <img height="45" width="40" src="{% static 'imagens/WHATS.png' %}"> </a></li>
                        </ul>
                       </div>
                </nav>
@@ -38,9 +38,9 @@
         <h1>SÉRIE A </h1>
    </div>
 
-    <img width="33%" height="415" src="imagens/jogadorseriea1.jpg">
-    <img width="33%" height="415" src="imagens/serieatim.png">
-    <img width="33%" height="415" src="imagens/jogadorseriea2.jpg">
+    <img width="33%" height="415" src="{% static 'imagens/jogadorseriea1.jpg' %}">
+    <img width="33%" height="415" src="{% static 'imagens/serieatim.png' %}">
+    <img width="33%" height="415" src="{% static 'imagens/jogadorseriea2.jpg' %}">
 
     <div class="frete">
         <h2>FRETE GRÁTIS A PARTIR DE 199,90!!!! ----------- FRETE GRÁTIS A PARTIR DE 199,90!!!! ---------- FRETE GRÁTIS A PARTIR DE 199,90!!!! </h2>
@@ -53,7 +53,7 @@
         <br>
         <article= class= "camisaspro">
             <br>
-            <img height="250" width="250" src="imagens/camisajuve.png" alt="CAMISA 1">
+            <img height="250" width="250" src="{% static 'imagens/camisajuve.png' %}" alt="CAMISA 1">
             <h4>Camisa Juventus 2021</h4>
             <h4>R$ 99,90</h4>
             <button type="button">COMPRAR</button>
@@ -61,7 +61,7 @@
         </article>
         <br>
         <article= class= "camisaspro">
-            <img height="250" width="250" src="imagens/camisainter.png" alt="CAMISA 2">
+            <img height="250" width="250" src="{% static 'imagens/camisainter.png' %}" alt="CAMISA 2">
             <h4>Camisa Inter de Milão 2021</h4>
             <h4>R$ 99,90</h4>
             
@@ -70,7 +70,7 @@
         </article>
         <br>
         <article= class= "camisaspro">
-            <img height="250" width="250" src="imagens/camisamilan.png" alt="CAMISA 3">
+            <img height="250" width="250" src="{% static 'imagens/camisamilan.png' %}" alt="CAMISA 3">
             <h4>Camisa Milan 2021</h4>
             <h4>R$ 99,90</h4>
             <button type="button">COMPRAR</button>

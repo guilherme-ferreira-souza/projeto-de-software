@@ -11,4 +11,4 @@ class menuView(TemplateView):
 class premierlView(TemplateView):
     template_name = "premierl.html"
 class serieAView(TemplateView):
-    template_name = "premierl.html"
+    template_name = "serieA.html"
